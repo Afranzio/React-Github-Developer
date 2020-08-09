@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-container{
+    height: 7.5vh;
+    background-color: #00A6FF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts{
+    margin-left: 72vw;
+}
+
+.nav-container ul{
+    position: absolute;
+    display: flex;
+    list-style: none;
+    float: right;
+}
+
+.nav-container ul li{
+    list-style: none;
+    align-self: center;
+}
+
+.nav-container ul li a{
+    text-decoration: none;
+    padding: 0 1em;
+    color: #FFFFFF;
+}
+
+.nav-container ul li img{
+    border-radius: 50%;
+    height: 6.5vh;
+}
+
+.logo{
+    position: absolute;
+    width: 10em;
+    height: 3.8em;
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.feed-container{
+    background-color: #F3f3f3;
+    margin: 2em;
+    width: 60vw;
+    text-align: left;
+    margin-left: 20vw;
+}
+
+h3{
+    margin: 1em 0em;
+}
+
+.first{
+    background-color: #ffffff;
+    border-left: 2px solid #f3f3f3;
+    border-right: 2px solid #f3f3f3;
+}
+
+.tab-1{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding-left: 0.5em;
+    padding-bottom: 1em;
+    /* border-bottom: 50px solid #f3f3f3; */
+}
+
+.first li{
+    list-style-type: none;
+}
+
+.flex{
+    margin: 1em;
+    border-bottom: 2px solid #f3f3f3;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-name{
+    display: flex;
+    margin-top: 2em;
+    margin-left: 20vw;
+
+}
+
+.user-name img{
+    padding-left: 1em;
+}
+
+.contents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail{
+    display: flex;
+}
+
+.detail li{
+    text-align: center;
+    margin: 0em 1em;
+}
+
+.h3, .h4{
+    font-size: 1.3em;
+}
+
+.tag-post{
+    margin-top: 0.5em;
+    text-align: left;
+}
+
+.submit{
+    color: #ffffff;
+    background-color: #00A6FF;
+    padding: 0.5em 2em;
+    border: 0;
+    border-radius: 15px;
+}
+
+.save{
+    padding: 0.5em 2em;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+.submit, .save{
+    margin: 2em;
+    /* margin-top: 1em; */
+}
+
+.button{
+    margin-left: 15vw;
+}

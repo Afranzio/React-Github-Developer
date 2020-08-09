@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+}
+
+.nav-container{
+    height: 7.5vh;
+    background-color: #00A6FF;
+    text-align: left;
+}
+
+.logo{
+    position: absolute;
+    width: 10em;
+    height: 4em;
+}
+
+.Ellipse{
+    position: absolute;
+}
+
+.Ellipse img{
+    width: 375px;
+}
+
+.contant{
+    background-color: #f3f3f3;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+.title-note{
+    /* position: absolute; */
+    width: 50vw;
+    height: 28vh;
+
+    margin: 0 40%;
+
+    display: flex;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    /* line-height: 50px; */
+    /* identical to box height */
+
+    /* text-align: center; */
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title-note p{
+    margin-top: 10%;
+}
+
+.title-note span{
+    /* position: absolute; */
+    width: 20vw;
+    height: 20vh;
+
+    background: #00A6FF;
+    border-radius: 10px;
+
+    margin-top: 10%;
+
+    /* VorkInsta */
+
+
+    /* position: absolute; */
+    width: 175px;
+    height: 45px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    /* line-height: 78px; */
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border: 1px solid #000000;
+}
+
+.bottom-work{
+    justify-content: space-between;
+    display: flex;
+}    
+
+.bg{
+    position: relative;
+    width: 700px;
+    height: 500px;
+}
+
+.bg Vector{
+    background-color:  rgba(58,134,255,0.1);
+}
+
+.redirect{
+    background-color:  rgba(58,134,255,0.1);
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    margin-right: 5em;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.redirect h2{
+    margin-top: 20%;
+    font-weight: 400px;
+}
+
+.redirect button{
+    font-family: 'Montserrat', sans-serif;
+    align-content: center;
+    align-self: center;
+    margin-top: 3rem;
+    padding: 0.5em 0 ;
+    font-size: 1.2em;
+    align-self: center;
+    background-color: #00a6ff;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.redirect .login-btn{
+    color: #FFFFFF;
+}
+
+.redirect button img{
+    width: 30px;
+}
